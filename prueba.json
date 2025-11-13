@@ -1,0 +1,42 @@
+{
+    "nombreProyecto": "Mi Aplicación de Ejemplo",
+    "version": "1.0.0",
+    "autor": {
+        "nombre": "Juan Daga",
+        "email": "juan.daga@ejemplo.com"
+    },
+    "descripcion": "Archivo JSON de ejemplo para pruebas",
+    "creado": "2025-11-13T12:00:00Z",
+    "dependencias": [
+        { "nombre": "angular", "version": "15.0.0" },
+        { "nombre": "rxjs", "version": "7.8.0" }
+    ],
+    "configuracion": {
+        "host": "localhost",
+        "puerto": 4200,
+        "produccion": false,
+        "tema": "claro"
+    },
+    "usuarios": [
+        {
+            "id": 1,
+            "nombre": "Ana",
+            "roles": ["admin", "editor"],
+            "activo": true,
+            "ultimoLogin": "2025-11-12T09:30:00Z",
+            "preferencias": { "idioma": "es", "notificaciones": true }
+        },
+        {
+            "id": 2,
+            "nombre": "Luis",
+            "roles": ["lector"],
+            "activo": false,
+            "ultimoLogin": null,
+            "preferencias": { "idioma": "es", "notificaciones": false }
+        }
+    ],
+    "articulos": [
+        { "id": "a1", "titulo": "Introducción", "tags": ["inicio", "guía"], "publicado": true, "vistas": 153 },
+        { "id": "a2", "titulo": "Avanzado", "tags": ["tutorial"], "publicado": false, "vistas": 0 }
+    ]
+}
